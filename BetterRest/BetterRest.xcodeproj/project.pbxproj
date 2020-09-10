@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4688A12E250A12810041CBE3 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4688A12D250A12800041CBE3 /* SleepCalculator.mlmodel */; };
 		46FF9C1F25089A7C00C9A5B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FF9C1E25089A7C00C9A5B2 /* AppDelegate.swift */; };
 		46FF9C2125089A7C00C9A5B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FF9C2025089A7C00C9A5B2 /* SceneDelegate.swift */; };
 		46FF9C2325089A7C00C9A5B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FF9C2225089A7C00C9A5B2 /* ContentView.swift */; };
 		46FF9C2525089A8300C9A5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FF9C2425089A8300C9A5B2 /* Assets.xcassets */; };
 		46FF9C2825089A8300C9A5B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FF9C2725089A8300C9A5B2 /* Preview Assets.xcassets */; };
 		46FF9C2B25089A8300C9A5B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FF9C2925089A8300C9A5B2 /* LaunchScreen.storyboard */; };
-		46FF9C552509699A00C9A5B2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 46FF9C542509699A00C9A5B2 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4688A12D250A12800041CBE3 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		46FF9C1B25089A7C00C9A5B2 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FF9C1E25089A7C00C9A5B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FF9C2025089A7C00C9A5B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		46FF9C2725089A8300C9A5B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46FF9C2A25089A8300C9A5B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46FF9C2C25089A8300C9A5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46FF9C542509699A00C9A5B2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = "../../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/SleepCalculator.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				46FF9C2425089A8300C9A5B2 /* Assets.xcassets */,
 				46FF9C2925089A8300C9A5B2 /* LaunchScreen.storyboard */,
 				46FF9C2C25089A8300C9A5B2 /* Info.plist */,
-				46FF9C542509699A00C9A5B2 /* SleepCalculator.mlmodel */,
+				4688A12D250A12800041CBE3 /* SleepCalculator.mlmodel */,
 				46FF9C2625089A8300C9A5B2 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -151,7 +151,7 @@
 			files = (
 				46FF9C1F25089A7C00C9A5B2 /* AppDelegate.swift in Sources */,
 				46FF9C2125089A7C00C9A5B2 /* SceneDelegate.swift in Sources */,
-				46FF9C552509699A00C9A5B2 /* SleepCalculator.mlmodel in Sources */,
+				4688A12E250A12810041CBE3 /* SleepCalculator.mlmodel in Sources */,
 				46FF9C2325089A7C00C9A5B2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

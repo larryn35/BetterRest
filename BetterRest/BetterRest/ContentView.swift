@@ -24,11 +24,12 @@ struct ContentView: View {
     }
     
     var body: some View {
+        UITableView.appearance().backgroundColor = .clear
+        UITableView.appearance().separatorColor = .clear
+
         
-        NavigationView {
-            
+        return NavigationView {
             Form {
-                
                 VStack(alignment: .leading, spacing: 0) {
                     Text("When do you want to wake up?")
                         .font(.headline)
@@ -71,6 +72,7 @@ struct ContentView: View {
                 }.frame(maxWidth: .infinity, alignment: .center)
             }
             .navigationBarTitle("BetterRest")
+            .background(Color.white)
         }
     }
     
